@@ -1,14 +1,11 @@
 h1 {
     color:rgb(255, 126, 126);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Louis George Café';
     font-size: 80px;
 }
 img{
     width: 300px;
     height: 300px;
-    background-color: rgb(143, 0, 0);
-    background-position-x: left;
-    background-position-y: top;
 }
 .upper{
     background-color:rgb(143, 0, 0);
@@ -18,6 +15,7 @@ a{
     text-decoration-line: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.design{
+.down_layer{
     background-color:rgb(143, 0, 0);
+    background-position-y: 2rem;
 }
