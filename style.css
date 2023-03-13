@@ -13,7 +13,6 @@ body{
     justify-content: space-around;
     padding: 16px;
     gap:48px;
-    padding-right: 120px;
 }
 
 .items{
@@ -79,7 +78,6 @@ button{
 .image{
     width:300px;
     height:300px;
-    margin-right: 104px;
 }
 
 .second{
@@ -88,7 +86,6 @@ button{
     justify-content: center;
     align-items: center;
     padding:32px;
-    margin-right: 104px;
     gap:32px;
 }
 
@@ -118,6 +115,8 @@ button{
 }
 
 .testimonial{
+    display:flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
@@ -128,9 +127,8 @@ button{
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
-    max-width: 700px;
     text-align: center;
-    margin-left: 128px;
+    text-size-adjust: 400px;
 }
 
 .hero{
@@ -143,6 +141,32 @@ button{
     display:flex;
     justify-self: flex-end;
     align-self: flex-end;
-    margin-left: 700px;
     font-weight: bold;
+}
+
+.sign{
+    display:flex;
+    background-color: #3882F6;
+    margin:128px;
+    padding: 36px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.textin{
+    color:#F9FAF8;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.child{
+    border:2px solid white;
+}
+
+.newtex{
+    font-weight: bold;
+    font-size: 20px;
 }
